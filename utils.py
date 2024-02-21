@@ -14,9 +14,6 @@ def is_prime(number):
         for i in range(3, int(number**0.5) + 1, 2):
             if number % i == 0:
                 return False
-<<<<<<< Updated upstream
-        return True
-=======
         return True
 
 def is_power_of_five(num):
@@ -26,4 +23,3 @@ def is_power_of_five(num):
 
 def is_power_of_two(num):
     return num and (not(num & (num - 1)))
->>>>>>> Stashed changes
